@@ -6,6 +6,8 @@ Thank you for your interest in BarSeqFit. By taking part you agree to follow the
 
 The public API is deliberately limited to what the accompanying paper uses: `fit_sequences`, `fit_pair` and `fit_wt`, with the model choices inherited from Papkou et al. 2023. Bug fixes, documentation improvements and tests are very welcome. For new features or changes to the model, please open an issue first so we can agree whether it fits the scope.
 
+Coding agents should read [AGENTS.md](AGENTS.md) before making changes.
+
 ## Set up
 
 You need [uv](https://docs.astral.sh/uv/) and [just](https://just.systems/).
