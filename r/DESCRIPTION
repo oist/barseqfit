@@ -1,0 +1,17 @@
+Package: barseqfit
+Type: Package
+Title: Barcode Sequence Fitness
+Version: 0.2.0
+Authors@R: person("Igors", "Dubanevics", role = c("aut", "cre"),
+    email = "26872977+igorsdub@users.noreply.github.com")
+Description: R reference implementation of the BarSeqFit wild-type and
+    pairwise fitness fits, used to validate the Python package against the
+    published Papkou et al. 2023 tables.
+License: MIT + file LICENSE
+URL: https://github.com/oist/barseqfit
+BugReports: https://github.com/oist/barseqfit/issues
+Encoding: UTF-8
+Depends: R (>= 4.1.3)
+Imports: parallel, stats, utils, RcppTOML, nanoparquet, jsonlite
+Suggests: testthat (>= 3.0.0), withr
+Config/testthat/edition: 3

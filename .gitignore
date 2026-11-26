@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Keep uv.lock tracked for reproducible environments.
+
+# Local environment and OS files
+.env
+.DS_Store
+
+# Scratch outputs (full-data exports, verdicts)
+.scratch/
+
+# Agent scratch
+.context/
+pytest-of-*/

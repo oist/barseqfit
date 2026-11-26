@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the DOI on its Zenodo
+  record, linked from the repository, and cite the article by Papkou et al.
+  (2023) listed under references, whose model this package implements.
+title: "BarSeqFit"
+type: software
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/oist/barseqfit"
+authors:
+  - family-names: Dubanevics
+    given-names: Igors
+    affiliation: "Okinawa Institute of Science and Technology Graduate University"
+    # orcid: can be added here as "https://orcid.org/0000-0000-0000-0000"
+references:
+  - type: article
+    title: "A rugged yet easily navigable fitness landscape"
+    authors:
+      - family-names: Papkou
+        given-names: Andrei
+      - family-names: García-Pastor
+        given-names: Lucía
+      - family-names: Escudero
+        given-names: José Antonio
+      - family-names: Wagner
+        given-names: Andreas
+    journal: "Science"
+    year: 2023
+    doi: "10.1126/science.adh3860"
+  - type: software-code
+    title: 'Code to reproduce data analyses and figures for manuscript "A rugged yet highly navigable landscape"'
+    authors:
+      - family-names: Papkou
+        given-names: Andrei
+    publisher:
+      name: "Zenodo"
+    year: 2024
+    doi: "10.5281/zenodo.13837982"
+    license: CC-BY-4.0
+  - type: unpublished
+    title: "Topological characterization of combinatorial fitness landscapes using merge trees"
+    authors:
+      - family-names: Dubanevics
+        given-names: Igors
+    year: 2026
+    repository-code: "https://github.com/igorsdub/dubanevics2026topological"
+    notes: "Manuscript in preparation"

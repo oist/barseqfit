@@ -1,0 +1,43 @@
+[build-system]
+requires = ["uv_build>=0.7.19,<0.12"]
+build-backend = "uv_build"
+
+[project]
+name = "barseqfit"
+version = "0.2.0"
+authors = [
+  { name = "Igors Dubanevics", email = "26872977+igorsdub@users.noreply.github.com" },
+]
+description = "Grouped-binomial fits of growth rate and relative fitness from barcode sequencing counts."
+keywords = ["barcode sequencing", "fitness", "growth rate", "binomial", "deep mutational scanning", "fitness landscape"]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = ["numpy", "polars", "scipy"]
+
+[project.urls]
+Homepage = "https://github.com/oist/barseqfit"
+Repository = "https://github.com/oist/barseqfit"
+Issues = "https://github.com/oist/barseqfit/issues"
+Changelog = "https://github.com/oist/barseqfit/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = ["pytest", "pytest-cov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "src/barseqfit", "README.md"]
+addopts = "-ra --doctest-modules --doctest-glob=README.md"
+doctest_optionflags = ["NORMALIZE_WHITESPACE", "ELLIPSIS"]
+pythonpath = ["."]
+
+[tool.uv]
+package = true

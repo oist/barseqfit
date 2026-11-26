@@ -1,0 +1,26 @@
+# Result-affecting parameters of the full-data validation runs.
+# Read by scripts only; the libraries take these as arguments.
+# Machine-specific values (paths, BARSEQFIT_CORES) live in .env.
+
+[fit]
+chunk_size = 2000
+
+[gate]
+abs_tol = 1e-6
+rel_tol = 1e-6
+noise_floor = 1e-13
+scalar_sample_size = 1000
+scalar_tol = 1e-9
+tie_fraction = 0.0005
+tie_se_abs = 1e-4
+tie_p_abs = 1e-4
+# Rows of the published pair table (fitness_diff_wald_test_data.RDS after the in-store filter).
+published_pair_rows = 3518696
+
+# The fit_sequences identity: fit_wt's m equals the difference of fit_sequences
+# growth rates, and its se equals the root of the summed squared pooled se.
+# se_tol is not tighter because the 4-parameter fit_wt and the 2-parameter
+# per-sequence fits can stop on different IRLS iterations.
+[identity]
+m_tol = 1e-7
+se_tol = 2e-5
