@@ -4,7 +4,7 @@ build-backend = "uv_build"
 
 [project]
 name = "barseqfit"
-version = "0.2.0"
+version = "0.2.1"
 authors = [
   { name = "Igors Dubanevics", email = "26872977+igorsdub@users.noreply.github.com" },
 ]

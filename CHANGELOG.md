@@ -4,7 +4,16 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project
 follows [Semantic Versioning](https://semver.org/).
 
-## 0.2.0 (unreleased)
+## 0.2.1 (2026-11-26)
+
+Release metadata only. No change to the package's behaviour.
+
+### Added
+
+- Author ORCID in `CITATION.cff` and `.zenodo.json`.
+- Guidance files for coding agents: `AGENTS.md` and `CLAUDE.md`.
+
+## 0.2.0 (2026-11-26)
 
 First public release. Earlier versions were developed privately.
 

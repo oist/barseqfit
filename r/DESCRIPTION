@@ -1,7 +1,7 @@
 Package: barseqfit
 Type: Package
 Title: Barcode Sequence Fitness
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Igors", "Dubanevics", role = c("aut", "cre"),
     email = "26872977+igorsdub@users.noreply.github.com")
 Description: R reference implementation of the BarSeqFit wild-type and

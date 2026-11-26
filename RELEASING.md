@@ -4,7 +4,9 @@ The owner cuts the release. This file does not tag, publish, or change repositor
 
 Version 0.2.0 is the first public version. The public API is `fit_sequences`, `fit_pair` and `fit_wt`, with `pseudocount` and `dispersion` required, each accepting a single value in this release. Default numerical output is unchanged from the frozen baselines.
 
-Licence for the files in this tree is MIT, copyright 2026 Okinawa Institute of Science and Technology Graduate University. `CITATION.cff` and `.zenodo.json` use that licence, version 0.2.0, and author Igors Dubanevics (Okinawa Institute of Science and Technology Graduate University). No ORCID is recorded in the repository, so none is listed. `repository-code` is `https://github.com/oist/barseqfit`, the public home. The README and `CITATION.cff` cite the repository and say the DOI lives on the Zenodo record: the version DOI cannot sit inside the tag that mints it.
+Version 0.2.1 changes archive metadata only (ORCID, release date, version number). It exists so that the first Zenodo record carries complete metadata; package behaviour is identical to 0.2.0.
+
+Licence for the files in this tree is MIT, copyright 2026 Okinawa Institute of Science and Technology Graduate University. `CITATION.cff` and `.zenodo.json` use that licence, the current version, and author Igors Dubanevics (Okinawa Institute of Science and Technology Graduate University). The author's ORCID (0000-0002-9989-6649) is recorded in both files since 0.2.1. `repository-code` is `https://github.com/oist/barseqfit`, the public home. The README and `CITATION.cff` cite the repository and say the DOI lives on the Zenodo record: the version DOI cannot sit inside the tag that mints it.
 
 Distribution:
 

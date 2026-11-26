@@ -1,7 +1,7 @@
 {
   "title": "BarSeqFit",
   "description": "Grouped-binomial fits of growth rate and relative fitness from barcode sequencing counts.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
@@ -9,6 +9,7 @@
   "creators": [
     {
       "name": "Dubanevics, Igors",
+      "orcid": "0000-0002-9989-6649",
       "affiliation": "Okinawa Institute of Science and Technology Graduate University"
     }
   ],

@@ -12,7 +12,7 @@ BarSeqFit estimates how fast each DNA sequence grows in a pooled barcode sequenc
 Install the package from GitHub:
 
 ```bash
-pip install "barseqfit @ git+https://github.com/oist/barseqfit.git@v0.2.0"
+pip install "barseqfit @ git+https://github.com/oist/barseqfit.git@v0.2.1"
 ```
 
 To work on the code, clone the repository and install the development environment with the project's tool (`uv`):
@@ -155,7 +155,7 @@ BarSeqFit keeps the choices of the published analysis so that it reproduces the 
 - **No read-depth filter.** Every sequence in `sequences` is fitted, however few reads it has. Sequences with no reads at the later time are flagged `censored`.
 - **The complement count is taken as given.** For each sample, the count of all other reads is `sample_total - count`, with `sample_total` read from your `samples` table. BarSeqFit does not recompute it from the rows of `counts`, so subsetting `counts` does not change it.
 
-`pseudocount` and `dispersion` are required arguments with no default, so that every analysis states them. Version 0.2.0 accepts only `"all_zeros"` and `"fixed"`; any other value raises an error.
+`pseudocount` and `dispersion` are required arguments with no default, so that every analysis states them. Version 0.2.1 accepts only `"all_zeros"` and `"fixed"`; any other value raises an error.
 
 ## Validation
 
