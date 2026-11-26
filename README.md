@@ -2,7 +2,7 @@
 
 [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/oist/barseqfit/blob/main/LICENSE)
 ![Python 3.12 | 3.13](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue.svg)
-<!-- TODO: add the DOI badge once the Zenodo record exists -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24548492.svg)](https://doi.org/10.5281/zenodo.24548492)
 <!-- TODO: add the coverage badge once coverage is published -->
 
 BarSeqFit estimates how fast each DNA sequence grows in a pooled barcode sequencing experiment. From read counts at two time points it returns the growth rate `r` of each sequence, and the fitness difference `m` between two sequences or between a sequence and a wild-type reference. Both come from a grouped-binomial logit regression of the counts, with a standard error and a p-value. BarSeqFit reproduces the analysis of Papkou et al. 2023 and is the fitting software for the accompanying paper. The Python package is `barseqfit`.
@@ -184,7 +184,7 @@ Dubanevics et al. "Topological characterization of combinatorial fitness landsca
 
 If you use BarSeqFit, please cite the software through its Zenodo record. See [`CITATION.cff`](https://github.com/oist/barseqfit/blob/main/CITATION.cff) for the machine-readable form, which GitHub shows as "Cite this repository".
 
-<!-- TODO: add the DOI of the Zenodo record here and in CITATION.cff -->
+The concept DOI [10.5281/zenodo.24548492](https://doi.org/10.5281/zenodo.24548492) cites all versions and always resolves to the latest one. To cite version 0.2.1 specifically, use [10.5281/zenodo.24548493](https://doi.org/10.5281/zenodo.24548493).
 
 Please also cite the analysis that BarSeqFit reproduces:
 

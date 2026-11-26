@@ -1,13 +1,18 @@
 cff-version: 1.2.0
 message: >-
-  If you use this software, please cite it using the DOI on its Zenodo
-  record, linked from the repository, and cite the article by Papkou et al.
-  (2023) listed under references, whose model this package implements.
+  If you use this software, please cite it using its Zenodo DOI,
+  10.5281/zenodo.24548492, and cite the article by Papkou et al. (2023)
+  listed under references, whose model this package implements.
 title: "BarSeqFit"
 type: software
 version: 0.2.1
 date-released: 2026-11-26
 license: MIT
+doi: 10.5281/zenodo.24548492
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24548492
+    description: "Zenodo concept DOI, all versions"
 repository-code: "https://github.com/oist/barseqfit"
 authors:
   - family-names: Dubanevics

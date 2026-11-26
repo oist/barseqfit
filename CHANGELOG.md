@@ -4,6 +4,10 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project
 follows [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+- Zenodo DOI badge and concept DOI in README and CITATION.cff.
+
 ## 0.2.1 (2026-11-26)
 
 Release metadata only. No change to the package's behaviour.
